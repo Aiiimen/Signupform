@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sign Up Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- imports -->
+  <link rel="stylesheet" type="text/css" href="stylesheet/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/functions.js"></script>
+
+  <!-- font imports  -->
+
+</head>
+
+
+<body>
+  <p class="project-description">A simple sign in form that uses form validation. On submiting the form after
+  the completion both * fields - the form will display a success screen.
+  On the contrary - the form will display an error message prompting the user to try again.
+  <br>
+  <br>
+  HTML, SASS and jQuery were used to create the form and the animation.</p>
+  <!-- ENTER CONTENT HERE -->
+  <div class="main-container">
+    <div class="sign-in-container">
+
+      <h1> SIGN IN </h1>
+
+
+      <div class="inputs">
+        <div class="input username-input">
+          <label>Username*</label><br>
+          <input id="text-input" type="text" name="username">
+        </div>
+
+        <div class="input password-input">
+          <label>Password* </label><br>
+          <input id="text-input" type="password" name="password"><br>
+          <input type="checkbox" name="remember-me" value="remember-me"> <label id="checkbox">Remember Me</label> <br>
+        </div>
+        <p style="font-size: 12px">* fields are required.<p>
+
+        <div class="submit-container">
+          <div class="submit-btn">SIGN IN</div>
+          <h6> FORGOTTEN PASSWORD? </H6>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="message-container success-container">
+      <div class="content-container">
+        <h1> Success </h1>
+        <img src="assets/icons/success.png"/>
+      </div>
+      <div class="add-message">
+        <p style="text-decoration: underline; cursor:pointer"> Continue </p>
+      </div>
+    </div>
+
+    <div class="message-container failed-container">
+      <div class="content-container">
+        <h1> Failed </h1>
+        <img src="assets/icons/fail.png"/>
+      </div>
+      <div class="add-message">
+        <p>Please fill out all the * fields.</p>
+        <p style="text-decoration: underline; cursor:pointer"> Try Again </p>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

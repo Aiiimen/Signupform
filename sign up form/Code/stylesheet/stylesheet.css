@@ -1,0 +1,116 @@
+html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9F9F9; }
+  body .project-description {
+    font-family: "Roboto";
+    font-size: 15px;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 10px 10px 10px;
+    opacity: 0.3;
+    transition: all 300ms ease-in-out; }
+    body .project-description:hover {
+      opacity: 1; }
+  body .main-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 80%;
+    overflow: hidden; }
+    body .main-container .sign-in-container {
+      width: 90%;
+      height: 90%;
+      padding: 70px 50px 0 50px;
+      box-sizing: border-box;
+      -webkit-box-shadow: 0px 0px 41px 2px rgba(0, 0, 0, 0.09);
+      -moz-box-shadow: 0px 0px 41px 2px rgba(0, 0, 0, 0.09);
+      box-shadow: 0px 0px 41px 2px rgba(0, 0, 0, 0.09);
+      background-color: white; }
+      body .main-container .sign-in-container h1 {
+        margin-bottom: 60px;
+        letter-spacing: 1.5; }
+      body .main-container .sign-in-container .inputs {
+        position: relative;
+        height: 80%; }
+        body .main-container .sign-in-container .inputs .input #text-input {
+          height: 43px;
+          width: 100%;
+          margin: 0px 0 50px 0;
+          border: none;
+          border-radius: 5px;
+          padding: 0 10px 0 10px;
+          background-color: #F9F9F9;
+          font-family: "Roboto"; }
+        body .main-container .sign-in-container .inputs .input #checkbox {
+          font-family: "Roboto";
+          font-size: 13px; }
+        body .main-container .sign-in-container .inputs .input input[name=password] {
+          margin: 0 0 10px 0 !important; }
+      body .main-container .sign-in-container .submit-container {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        text-align: center; }
+        body .main-container .sign-in-container .submit-container .submit-btn {
+          line-height: 53px;
+          background-color: #37A2FF;
+          height: 53px;
+          border-radius: 5px;
+          color: white;
+          font-weight: 500;
+          letter-spacing: 1px;
+          cursor: pointer;
+          -webkit-box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, 0.25);
+          -moz-box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, 0.25); }
+          body .main-container .sign-in-container .submit-container .submit-btn:hover {
+            -webkit-box-shadow: 1px 3px 10px 0px rgba(0, 0, 0, 0.16);
+            -moz-box-shadow: 1px 3px 10px 0px rgba(0, 0, 0, 0.16);
+            box-shadow: 1px 3px 10px 0px rgba(0, 0, 0, 0.16); }
+        body .main-container .sign-in-container .submit-container h6 {
+          margin-top: 10px;
+          font-weight: 400;
+          font-family: "Roboto";
+          cursor: pointer; }
+    body .main-container .message-container {
+      color: white;
+      width: 90%;
+      height: 95%;
+      position: absolute;
+      top: 100%;
+      padding: 0px 50px 0 50px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      body .main-container .message-container .content-container {
+        display: none;
+        text-align: center; }
+      body .main-container .message-container .add-message {
+        width: 100%;
+        position: absolute;
+        bottom: 30px;
+        text-align: center; }
+    body .main-container .success-container {
+      background-color: #13CE66; }
+    body .main-container .failed-container {
+      background-color: #FF4949; }
+
+/*# sourceMappingURL=stylesheet.css.map */
