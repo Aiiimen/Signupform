@@ -2,6 +2,7 @@
 
 >*a sign up form with animation depending on the outcome. Successful sign in or failure*
 
+![Sing up Form](https://github.com/AimenBenAissa/Signupform/blob/master/sign%20up%20form/Design/signupform.jpg "Sign Up")
 There’s a lot of sign up forms out there on the internet with different designs and animation when it comes to user feedback. 
 With the help of jQuery for the animation I’ve managed to create a minimalist sign up form with two animations to feed back the user. 
 
