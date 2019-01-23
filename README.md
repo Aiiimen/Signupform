@@ -8,9 +8,9 @@ With the help of jQuery for the animation I’ve managed to create a minimalist 
 #### Tools and Assets Used
 ---
 
--Fonts: Poppins & Roboto
--Colour Pallete: #37A2FF, #1C1C1C, #13CE66, #FF4949, #FFFFFF
--Icons: [iconfinder](https://www.iconfinder.com/)
+- Fonts: Poppins & Roboto
+- Colour Pallete: #37A2FF, #1C1C1C, #13CE66, #FF4949, #FFFFFF
+- Icons: [iconfinder](https://www.iconfinder.com/)
 
 ---
 
