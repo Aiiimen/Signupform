@@ -10,7 +10,10 @@ With the help of jQuery for the animation I’ve managed to create a minimalist 
 ---
 
 - Fonts: Poppins & Roboto
-- Colour Pallete: #37A2FF, #1C1C1C, #13CE66, #FF4949, #FFFFFF
+- Colour Pallete: #37A2FF![Sing up Form](https://github.com/AimenBenAissa/Signupform/blob/master/sign%20up%20form/Design/37a2ff.jpg"Blue"), 
+#1C1C1C (https://github.com/AimenBenAissa/Signupform/blob/master/sign%20up%20form/Design/37a2ff.jpg"Blue") , 
+#13CE66, 
+#FF4949, 
 - Icons: [iconfinder](https://www.iconfinder.com/)
 
 ---
